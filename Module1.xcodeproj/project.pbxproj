@@ -14,6 +14,7 @@
 		D234DA1620EB5104001A7A28 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D234DA1420EB5104001A7A28 /* LaunchScreen.storyboard */; };
 		D234DA1920EB5104001A7A28 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D234DA1820EB5104001A7A28 /* main.m */; };
 		D234DA2320EB5104001A7A28 /* Module1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = D234DA2220EB5104001A7A28 /* Module1Tests.m */; };
+		D2CD26C720EB742900ABA114 /* ModuleFunc.m in Sources */ = {isa = PBXBuildFile; fileRef = D2CD26C620EB742900ABA114 /* ModuleFunc.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		D234DA1E20EB5104001A7A28 /* Module1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Module1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D234DA2220EB5104001A7A28 /* Module1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Module1Tests.m; sourceTree = "<group>"; };
 		D234DA2420EB5104001A7A28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2CD26C520EB742900ABA114 /* ModuleFunc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModuleFunc.h; sourceTree = "<group>"; };
+		D2CD26C620EB742900ABA114 /* ModuleFunc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModuleFunc.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +93,8 @@
 				D234DA1420EB5104001A7A28 /* LaunchScreen.storyboard */,
 				D234DA1720EB5104001A7A28 /* Info.plist */,
 				D234DA1820EB5104001A7A28 /* main.m */,
+				D2CD26C520EB742900ABA114 /* ModuleFunc.h */,
+				D2CD26C620EB742900ABA114 /* ModuleFunc.m */,
 			);
 			path = Module1;
 			sourceTree = "<group>";
@@ -204,6 +209,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D234DA0E20EB5103001A7A28 /* ViewController.m in Sources */,
+				D2CD26C720EB742900ABA114 /* ModuleFunc.m in Sources */,
 				D234DA1920EB5104001A7A28 /* main.m in Sources */,
 				D234DA0B20EB5103001A7A28 /* AppDelegate.m in Sources */,
 			);

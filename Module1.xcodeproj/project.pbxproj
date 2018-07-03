@@ -66,6 +66,7 @@
 		D234D9FD20EB5103001A7A28 = {
 			isa = PBXGroup;
 			children = (
+				D2CD26C820EB856200ABA114 /* Classes */,
 				D234DA0820EB5103001A7A28 /* Module1 */,
 				D234DA2120EB5104001A7A28 /* Module1Tests */,
 				D234DA0720EB5103001A7A28 /* Products */,
@@ -93,8 +94,6 @@
 				D234DA1420EB5104001A7A28 /* LaunchScreen.storyboard */,
 				D234DA1720EB5104001A7A28 /* Info.plist */,
 				D234DA1820EB5104001A7A28 /* main.m */,
-				D2CD26C520EB742900ABA114 /* ModuleFunc.h */,
-				D2CD26C620EB742900ABA114 /* ModuleFunc.m */,
 			);
 			path = Module1;
 			sourceTree = "<group>";
@@ -106,6 +105,15 @@
 				D234DA2420EB5104001A7A28 /* Info.plist */,
 			);
 			path = Module1Tests;
+			sourceTree = "<group>";
+		};
+		D2CD26C820EB856200ABA114 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D2CD26C520EB742900ABA114 /* ModuleFunc.h */,
+				D2CD26C620EB742900ABA114 /* ModuleFunc.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

@@ -19,7 +19,7 @@
     Class cls = [self class];
     NSString *clsName = NSStringFromClass(cls);
     NSBundle *bundle = [NSBundle bundleForClass:cls];
-    UIViewController *vc = [self initWithNibName:clsName bundle:bundle];
+    LoginVC *vc = [self initWithNibName:clsName bundle:bundle];
     
     return vc;
 }

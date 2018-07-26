@@ -15,4 +15,9 @@
     NSLog(@"%s: gogogo", __func__);
 }
 
+- (void)go_V2
+{
+    NSLog(@"just go V2");
+}
+
 @end

@@ -8,8 +8,6 @@
 
 #import "ModuleFunc.h"
 
-#define d_bundle_name @"LibraryResources.bundle"
-
 @implementation ModuleFunc
 
 - (void)go

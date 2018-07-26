@@ -14,4 +14,6 @@
 
 - (void)go_V2;
 
+- (void)go_V3;
+
 @end

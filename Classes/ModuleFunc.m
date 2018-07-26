@@ -20,4 +20,9 @@
     NSLog(@"just go V2");
 }
 
+- (void)go_V3
+{
+    NSLog(@"go v3");
+}
+
 @end

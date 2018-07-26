@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D20C7FC821096C3000F7FF7B /* LoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D20C7FC621096C3000F7FF7B /* LoginVC.m */; };
+		D20C7FC921096C3000F7FF7B /* LoginVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = D20C7FC721096C3000F7FF7B /* LoginVC.xib */; };
 		D234DA0B20EB5103001A7A28 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D234DA0A20EB5103001A7A28 /* AppDelegate.m */; };
 		D234DA0E20EB5103001A7A28 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D234DA0D20EB5103001A7A28 /* ViewController.m */; };
 		D234DA1120EB5103001A7A28 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D234DA0F20EB5103001A7A28 /* Main.storyboard */; };
@@ -28,6 +30,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D20C7FC421096C0F00F7FF7B /* hbb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hbb.png; sourceTree = "<group>"; };
+		D20C7FC521096C3000F7FF7B /* LoginVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginVC.h; sourceTree = "<group>"; };
+		D20C7FC621096C3000F7FF7B /* LoginVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginVC.m; sourceTree = "<group>"; };
+		D20C7FC721096C3000F7FF7B /* LoginVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginVC.xib; sourceTree = "<group>"; };
 		D234DA0620EB5103001A7A28 /* Module1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Module1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D234DA0920EB5103001A7A28 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D234DA0A20EB5103001A7A28 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -63,9 +69,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D20C7FBF210969AC00F7FF7B /* Resouces */ = {
+			isa = PBXGroup;
+			children = (
+				D20C7FC421096C0F00F7FF7B /* hbb.png */,
+			);
+			path = Resouces;
+			sourceTree = "<group>";
+		};
 		D234D9FD20EB5103001A7A28 = {
 			isa = PBXGroup;
 			children = (
+				D20C7FBF210969AC00F7FF7B /* Resouces */,
 				D2CD26C820EB856200ABA114 /* Classes */,
 				D234DA0820EB5103001A7A28 /* Module1 */,
 				D234DA2120EB5104001A7A28 /* Module1Tests */,
@@ -112,6 +127,9 @@
 			children = (
 				D2CD26C520EB742900ABA114 /* ModuleFunc.h */,
 				D2CD26C620EB742900ABA114 /* ModuleFunc.m */,
+				D20C7FC521096C3000F7FF7B /* LoginVC.h */,
+				D20C7FC621096C3000F7FF7B /* LoginVC.m */,
+				D20C7FC721096C3000F7FF7B /* LoginVC.xib */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -198,6 +216,7 @@
 			files = (
 				D234DA1620EB5104001A7A28 /* LaunchScreen.storyboard in Resources */,
 				D234DA1320EB5104001A7A28 /* Assets.xcassets in Resources */,
+				D20C7FC921096C3000F7FF7B /* LoginVC.xib in Resources */,
 				D234DA1120EB5103001A7A28 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -218,6 +237,7 @@
 			files = (
 				D234DA0E20EB5103001A7A28 /* ViewController.m in Sources */,
 				D2CD26C720EB742900ABA114 /* ModuleFunc.m in Sources */,
+				D20C7FC821096C3000F7FF7B /* LoginVC.m in Sources */,
 				D234DA1920EB5104001A7A28 /* main.m in Sources */,
 				D234DA0B20EB5103001A7A28 /* AppDelegate.m in Sources */,
 			);

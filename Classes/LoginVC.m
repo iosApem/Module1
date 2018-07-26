@@ -7,6 +7,7 @@
 //
 
 #import "LoginVC.h"
+#import <Module2/WorkVC.h>
 
 @interface LoginVC ()
 
@@ -27,6 +28,17 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+}
+
+- (void)viewDidAppear:(BOOL)animated
+{
+    [super viewDidAppear:animated];
+    
+    Class cls = [WorkVC class];
+    NSString *clsName = NSStringFromClass(cls);
+    NSBundle *bdl = [NSBundle bundleForClass:cls];
+    WorkVC *vc = [[WorkVC alloc] initWithNibName:clsName bundle:bdl];
+    [self.navigationController pushViewController:vc animated:YES];
 }
 
 - (void)didReceiveMemoryWarning {

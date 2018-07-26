@@ -1,0 +1,16 @@
+PODS:
+  - APModule2 (0.0.5)
+
+DEPENDENCIES:
+  - APModule2
+
+SPEC REPOS:
+  https://github.com/iosApem/APRepo.git:
+    - APModule2
+
+SPEC CHECKSUMS:
+  APModule2: df4b65a590f0c100856891f4b6ca921c2eab646a
+
+PODFILE CHECKSUM: 41df2735f044ce57e558d8b278d545b6098e5de9
+
+COCOAPODS: 1.5.3

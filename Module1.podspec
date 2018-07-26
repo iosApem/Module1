@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name         = "Module1" # 项目名称
-s.version      = "0.1.5"        # 版本号 与 你仓库的 标签号 对应
+s.version      = "0.1.7"        # 版本号 与 你仓库的 标签号 对应
 s.license      = "MIT"
 s.summary      = "私人pod代码" # 项目简介
 
@@ -11,6 +11,8 @@ s.requires_arc = true # 是否启用ARC
 s.resources = ["Resouces/*.png", "Classes/*.xib"]
 s.platform     = :ios, "8.0" #平台及支持的最低版本
 # s.frameworks   = "UIKit", "Foundation" #支持的框架
+
+s.dependency   'APModule2'
 
 # User
 s.author             = { "BY" => "hp_apem@163.com" } # 作者信息

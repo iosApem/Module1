@@ -7,7 +7,7 @@
 //
 
 #import "LoginVC.h"
-//#import <Module2/WorkVC.h>
+#import <APModule2/WorkVC.h>
 #import <AFNetworking/AFNetworking.h>
 
 @interface LoginVC ()
@@ -35,11 +35,11 @@
 {
     [super viewDidAppear:animated];
     
-//    Class cls = [WorkVC class];
-//    NSString *clsName = NSStringFromClass(cls);
-//    NSBundle *bdl = [NSBundle bundleForClass:cls];
-//    WorkVC *vc = [[WorkVC alloc] initWithNibName:clsName bundle:bdl];
-//    [self.navigationController pushViewController:vc animated:YES];
+    Class cls = [WorkVC class];
+    NSString *clsName = NSStringFromClass(cls);
+    NSBundle *bdl = [NSBundle bundleForClass:cls];
+    WorkVC *vc = [[WorkVC alloc] initWithNibName:clsName bundle:bdl];
+    [self.navigationController pushViewController:vc animated:YES];
     
     
     [[AFHTTPSessionManager alloc] init];

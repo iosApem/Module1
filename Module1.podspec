@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name         = "Module1" # 项目名称
-s.version      = "0.1.8"        # 版本号 与 你仓库的 标签号 对应
+s.version      = "0.1.9"        # 版本号 与 你仓库的 标签号 对应
 s.license      = "MIT"
 s.summary      = "私人pod代码" # 项目简介
 
@@ -13,6 +13,7 @@ s.platform     = :ios, "8.0" #平台及支持的最低版本
 # s.frameworks   = "UIKit", "Foundation" #支持的框架
 
 s.dependency "AFNetworking"
+s.dependency "APModule2"
 
 # User
 s.author             = { "BY" => "hp_apem@163.com" } # 作者信息

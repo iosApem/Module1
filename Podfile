@@ -6,5 +6,6 @@ platform :ios, '8.0'
 target 'Module1' do
 
 pod ‘APModule2‘
-
+pod 'AFNetworking', '~> 3.0'
+ 
 end
